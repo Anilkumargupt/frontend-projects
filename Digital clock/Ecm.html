@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXORA - PREMIUM FASHION</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+
+   <!--Google Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+   <style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        background: #f5f3ed;
+    }
+   </style>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav class="bg-[#fdfcf8] border-b border-stone-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- LOGO -->
+
+       <a href="#" class="group flex items-center gap-3 transition-transform duration-300 hover:scale-105">
+        <!-- Glowing Digital Badge / Icon -->
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-300 shadow-md shadow-emerald-500/20 group-hover:shadow-emerald-500/40">
+         <span class="text-xl font-black text-white">G</span>
+      </div>
+  
+        <!-- Gradient Text -->
+      <div class="flex flex-col">
+        <span class="bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-600 bg-clip-text text-2xl font-black tracking-tight text-transparent">
+        GANESH
+       </span>
+       <span class="text-[10px] font-bold tracking-widest text-slate-400 uppercase group-hover:text-emerald-500 transition-colors">
+        General Store
+        </span>
+      </div>
+      </a>
+                <!-- MENU -->
+
+               <ul class="flex items-center gap-8 font-medium text-stone-700">
+
+    <li>
+        <a href="#home" class="group relative inline-flex items-center gap-1 text-emerald-600 duration-300
+            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-emerald-400 hover:via-cyan-400 hover:to-blue-500">
+            Home
+            <span class="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">→</span>
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+    </li>
+
+    <li>
+        <a href="#products" class="group relative inline-flex items-center gap-1 text-emerald-600 duration-300
+            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-emerald-400 hover:via-cyan-400 hover:to-blue-500">
+            Shop
+            <span class="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">→</span>
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+    </li>
+
+    <li>
+        <a href="#categories" class="group relative inline-flex items-center gap-1 text-emerald-600 duration-300
+            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-emerald-400 hover:via-cyan-400 hover:to-blue-500">
+            Categories
+            <span class="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">→</span>
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+    </li>
+
+    <li>
+        <a href="#footer" class="group relative inline-flex items-center gap-1 text-emerald-600 duration-300
+            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-emerald-400 hover:via-cyan-400 hover:to-blue-500">
+            Contact
+            <span class="opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">→</span>
+            <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 group-hover:w-full transition-all duration-300"></span>
+        </a>
+    </li>
+</ul>
+                <!-- ICONS -->
+
+                <div class="flex item-center gap-4">
+
+                    <button class="text-2xl hover:text-emerald-600 duration-300 cursor-pointer">
+                        <i class="ri-search-line"></i>
+                    </button>
+
+                     <button class="text-2xl hover:text-emerald-600 duration-300 cursor-pointer">
+                       <i class="ri-heart-line"></i>
+                    </button>
+
+                    <button class="relative text-2xl cursor-pointer">
+                        <i class="ri-shopping-cart-2-line"></i>
+                        <span class="absolute -top-2 -right-2 bg-emerald-600 text-white text-xs w-5 h-5 rounded-full 
+                        flex items-center justify-center">
+                    </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="py-12 md:py-16 px-6 max-w-7xl mx-auto">
+  <div class="flex flex-col gap-y-8 max-w-2xl">
+    
+  <!-- 1. Badge (Has space from top automatically due to section py-12) -->
+<div>
+  <span class="bg-emerald-800/50 text-emerald-400 text-xs px-3 py-1.5 rounded-full inline-block
+    transition-all duration-500 ease-in-out cursor-pointer
+    hover:bg-gradient-to-r hover:from-emerald-400 hover:via-cyan-400 hover:to-blue-500
+    hover:text-black hover:shadow-lg hover:shadow-emerald-500/50
+    hover:scale-105">
+    ✨ New Collection 2027
+  </span>
+</div>
+
+    <!-- 2. Heading & Paragraph -->
+    <div class="space-y-4">
+      <h1 class="text-5xl font-bold text-dark blue tracking-tight">
+        Redefine <span class="text-emerald-400">Your Style</span>
+      </h1>
+      <p class="text-dark blue-400 text-sm max-w-lg">
+        Discover timeless fashion, premium essentials and modern accessories crafted for those who love effortless style.
+      </p>
+    </div>
+
+  <!-- 3. CTA Buttons -->
+<div class="flex items-center gap-4">
+  <button class="bg-emerald-500 hover:bg-black text-white px-5 py-2.5 rounded-lg font-medium transition-colors duration-200">
+    Shop Collection →
+  </button>
+  <button class="text-black hover:text-white hover:bg-black font-medium px-4 py-2.5 rounded-lg transition-colors duration-200">
+    Explore
+  </button>
+</div>
+
+    <!-- 4. Stats Section -->
+    <div class="flex items-center gap-8 pt-4">
+      <div>
+        <h3 class="text-xl font-bold text-black">10k+</h3>
+        <p class="text-xs text-red-500">Happy Customers</p>
+      </div>
+      <div class="h-8 w-[1px] bg-green-700"></div>
+      <div>
+        <h3 class="text-xl font-bold text-black">500+</h3>
+        <p class="text-xs text-red-500">Products</p>
+      </div>
+      <div class="h-8 w-[1px] bg-green-700"></div>
+      <div>
+        <h3 class="text-xl font-bold text-black">4.9 ★</h3>
+        <p class="text-xs text-red-500">Rating</p>
+      </div>
+    </div>
+
+    <!-- 5. Image (Full height, fills its column) -->
+<div class="relative w-full h-full min-h-[500px] md:min-h-screen group" id="imgWrapper">
+
+  <!-- Main Image -->
+  <img 
+    src="/family.jpeg" 
+    alt="Hero Image" 
+    id="heroImg"
+    class="absolute inset-0 w-full h-full object-cover cursor-pointer transition-all duration-300"
+  />
+
+  <!-- Image Gradient Overlay (fades up from bottom) -->
+  <div class="absolute inset-0 bg-gradient-to-t from-[#17251f] via-transparent to-transparent pointer-events-none"></div>
+
+  <!-- Floating Card -->
+  <div class="absolute bottom-8 left-6 bg-white/95 backdrop-blur rounded-2xl px-5 py-4 shadow-2xl">
+    <p class="text-xs text-stone-500 uppercase tracking-widest">
+      Featured
+    </p>
+    <p class="font-bold text-lg mt-1">
+      New Session Edit
+    </p>
+    <p class="text-emerald-600 text-sm font-semibold mt-1">
+      Explore Now <i class="ri-arrow-right-line"></i>
+    </p>
+  </div>
+
+</div>
+
+<script>
+  const img = document.getElementById('heroImg');
+  let clicked = false;
+  img.addEventListener('click', () => {
+    clicked = !clicked;
+    if (clicked) {
+      img.classList.add('ring-4', 'ring-cyan-400', 'saturate-150', 'brightness-110');
+      img.style.filter = 'hue-rotate(15deg)';
+    } else {
+      img.classList.remove('ring-4', 'ring-cyan-400', 'saturate-150', 'brightness-110');
+      img.style.filter = 'none';
+    }
+  });
+</script>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+
+<section id="categories" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center"></div>
+        <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm">
+            Explore
+        </p>
+
+        <h2 class="text-4xl font-bold mt-2">
+            Shop By Caregory
+        </h2>
+
+        <p class="text-stone-500 mt-3">
+            Find Your Project Style.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-12">
+
+        <div class="bg-white rounded-2xl p-6 border border-stone-200 hover:-translate-y-1 hover:shadow-xl duration-300 cursor-pointer">
+            <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-2xl">
+                 <i class="ri-shirt-line"></i>
+
+
+
+            </div>
+            <h3 class="font-bold mt-5">
+                Fashion
+            </h3>
+
+            <p class="text-sm text-stone-500 mt-1">
+                120+ Products
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 border border-stone-200 hover:-translate-y-1 hover:shadow-xl duration-300 cursor-pointer">
+            <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-2xl">
+                 <i class="ri-shirt-line"></i>
+
+
+
+            </div>
+            <h3 class="font-bold mt-5">
+                Fashion
+            </h3>
+
+            <p class="text-sm text-stone-500 mt-1">
+                100+ Products
+            </p>
+        </div>
+       <div class="bg-white rounded-2xl p-6 border border-stone-200 hover:-translate-y-1 hover:shadow-xl duration-300 cursor-pointer">
+            <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-2xl">
+                 <i class="ri-shopping-bag-line"></i>
+
+
+
+            </div>
+            <h3 class="font-bold mt-5">
+                Accessories
+            </h3>
+
+            <p class="text-sm text-stone-500 mt-1">
+                150+ Products
+            </p>
+        </div>
+          <div class="bg-white rounded-2xl p-6 border border-stone-200 hover:-translate-y-1 hover:shadow-xl duration-300 cursor-pointer">
+            <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-2xl">
+                 <i class="ri-timer-line"></i>
+
+
+
+            </div>
+            <h3 class="font-bold mt-5">
+                Lifestyle
+            </h3>
+
+            <p class="text-sm text-stone-500 mt-1">
+                80+ Products
+            </p>
+        </div>
+        
+       </div>
+    </div>
+</section>
+   
+   <!-- FEATURED PRODUCTS -->
+
+   <section id="featured-products" class="py-16 sm:py-20 bg-[#eeece5]">
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Heading -->
+
+        <div class="flex items-end justify-between">
+            <div>
+                <p class="text-emerald-600 text-sm font-semibold uppercase tracking-widest">
+                    Our Collection
+                </p>
+
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">
+                    Featured Products
+                </h2>
+               
+                <a href="#" class="text-emerald-600 font-semibold  sm:flex items-center gap-1">
+                    View All <span>→</span>
+                </a>
+            </div>
+
+            <div id="products" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 mt-10">
+
+            </div>
+
+        </div>
+    </div>
+
+   </section>
+
+       <!-- OFFER -->
+
+       <section class="py-20 bg-emerald-700 text-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="uppercase tracking-widset text-emerald-200 text-sm font-semibold">
+                Limited Time Offer
+            </p>
+
+            <h2 class="mt-4 text-lg text-emerald-100">
+                Season Sale
+            </h2>
+
+            <p class="mt-4 text-lg text-emerald-100">
+                Get Flat 40% OFF On Selected
+                Premium Products.
+            </p>
+
+            <a href="#products" class="inline-block bg-white text-emerald-700 font-semibold px-8 py-4 rounded-xl mt-8 hover:scale-105 duration-300">
+                Shop Now <span>→</span>
+            </a>
+        </div>
+       </section>
+       <!-- FOOTER -->
+        
+       <footer id="footer" class="bg-[#17251f] text-stone-300 py-16">
+
+        <div class="max-w-7x mx-auto py-6 grid md:grid-cols-4 gap-10">
+
+         <!-- BRAND -->
+<div class="pl-4 md:pl-5">
+  <h2 class="text-3xl md:text-4xl font-extrabold text-white leading-tight tracking-tight">
+    NEW
+    <span class="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-500 bg-clip-text text-transparent">
+      GANESH GENERAL
+    </span>
+    STORE<span class="text-emerald-400">.</span>
+  </h2>
+  <p class="mt-4 leading-5 text-stone-400 max-w-xs">
+    Timeless fashion and modern essentials designed for everyday confidence.
+  </p>
+</div>
+
+  <div class="flex flex-col sm:flex-row gap-8">
+
+  <!-- SHOP -->
+  <div>
+    <div class="text-2xl text-white font-semibold mb-6">
+      Shop
+    </div>
+
+    <ul class="space-y-4 text-stone-500">
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Men</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Women</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Shoes</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Accessories</a></li>
+    </ul>
+  </div>
+
+  <!-- COMPANY -->
+  <div>
+    <div class="text-2xl text-white font-semibold mb-6">
+      Company
+    </div>
+
+    <ul class="space-y-4 text-stone-500">
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">About</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Careers</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Privacy</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Terms</a></li>
+    </ul>
+  </div>
+
+</div>
+
+  <!-- CONTACT -->
+
+  <div>
+    <div class="text-2xl text-white font-semibold mb-6">
+      Contact
+    </div>
+
+    <ul class="space-y-4 text-stone-500">
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Email: anilkgupta0202@gmail.com</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Phone: +9779804733901</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Address: Kalyanpur-Saptari</a></li>
+      <li><a href="#" class="hover:text-emerald-400 transition-colors duration-200">Terms</a></li>
+    </ul>
+  </div>
+</div>
+
+   <div class="border-t border-stone-700 mt-12 pt-6 text-center text-stone-500">
+
+    
+    &copy; 2027 New Ganesh General Store.
+     All Rights Reserved.
+   </div>
+       </footer>
+       
+       <script src="Eccm.js"></script>
+
+</body>
+</html>
